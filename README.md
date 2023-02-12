@@ -7,7 +7,7 @@
 
 # Τεχνολογίες
 
-# Java
+* Java
 * SQL
 * Firebase
 
