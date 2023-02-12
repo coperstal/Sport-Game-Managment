@@ -1,0 +1,275 @@
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_games_insert">
+
+
+    <LinearLayout
+        android:windowSoftInputMode="stateVisible|adjustResize"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INSERT GAME"
+
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_margin="24dp"
+            />
+
+
+        <EditText
+            android:id="@+id/game_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Insert ID"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/game_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Insert Name"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/game_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Insert Game Date"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/game_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert City"
+            />
+
+        <EditText
+            android:id="@+id/game_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert Country"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/TeamGroup2"
+            android:layout_below="@+id/txtView">
+            <RadioButton
+                android:id="@+id/game_teambutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginLeft="0dp"
+                android:text="Team"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/game_individualbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Individual" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/omada_onoma1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="omada1"
+            android:visibility="invisible"
+            />
+
+        <EditText
+            android:id="@+id/omada_onoma2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="omada2"
+            android:visibility="invisible"
+            />
+
+        <EditText
+            android:id="@+id/skor_omadwn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Score"
+            android:visibility="invisible"
+            />
+
+
+        <EditText
+            android:id="@+id/game_athelete_id1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert athlete id"
+            android:visibility="invisible"
+            />
+
+        <EditText
+            android:id="@+id/game_athelete_id2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert athlete id 2"
+            android:visibility="invisible"
+            />
+
+
+        <EditText
+            android:id="@+id/game_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert Score"
+            android:visibility="invisible"
+            />
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/indiv1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="player1"
+                android:visibility="invisible"
+                />
+
+            <EditText
+                android:id="@+id/perf1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="performance 1"
+                android:ems="10"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/indiv2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="player2"
+                android:visibility="invisible"
+                />
+
+            <EditText
+                android:id="@+id/perf2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="performance 2"
+                android:ems="10"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/indiv3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="player 3"
+                android:visibility="invisible"
+                />
+
+            <EditText
+                android:id="@+id/perf3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="performance 3"
+                android:ems="10"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/indiv4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="player 4"
+                android:visibility="invisible"
+                />
+
+            <EditText
+                android:id="@+id/perf4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="performance 4"
+                android:ems="10"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/submitGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FINISH" />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

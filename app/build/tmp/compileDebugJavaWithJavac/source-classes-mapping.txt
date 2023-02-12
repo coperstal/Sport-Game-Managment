@@ -1,0 +1,124 @@
+com/example/version10/fragment_sports_insert.java
+ com.example.version10.fragment_sports_insert
+com/example/version10/QUERY1.java
+ com.example.version10.QUERY1
+com/example/version10/fragment_games_update.java
+ com.example.version10.fragment_games_update
+ com.example.version10.fragment_games_update$1
+ com.example.version10.fragment_games_update$2
+ com.example.version10.fragment_games_update$2$1
+ com.example.version10.fragment_games_update$2$2
+ com.example.version10.fragment_games_update$2$3
+ com.example.version10.fragment_games_update$2$4
+ com.example.version10.fragment_games_update$2$5
+ com.example.version10.fragment_games_update$2$6
+ com.example.version10.fragment_games_update$2$7
+ com.example.version10.fragment_games_update$2$8
+com/example/version10/ResultStringInt.java
+ com.example.version10.ResultStringInt
+com/example/version10/fragment_teams_delete.java
+ com.example.version10.fragment_teams_delete
+com/example/version10/fragment_games.java
+ com.example.version10.fragment_games
+com/example/version10/fragment_sports_delete.java
+ com.example.version10.fragment_sports_delete
+com/example/version10/dao.java
+ com.example.version10.dao
+com/example/version10/Sport.java
+ com.example.version10.Sport
+com/example/version10/fragment_athletes_insert.java
+ com.example.version10.fragment_athletes_insert
+com/example/version10/fragment_email.java
+ com.example.version10.fragment_email
+ com.example.version10.fragment_email$1
+ com.example.version10.fragment_email$1$1
+ com.example.version10.fragment_email$1$2
+com/example/version10/QUERY3.java
+ com.example.version10.QUERY3
+com/example/version10/fragment_athletes_update.java
+ com.example.version10.fragment_athletes_update
+com/example/version10/MainActivity.java
+ com.example.version10.MainActivity
+ com.example.version10.MainActivity$1
+ com.example.version10.MainActivity$2
+com/example/version10/GeneratePassword.java
+ com.example.version10.GeneratePassword
+com/example/version10/fragment_sports_update.java
+ com.example.version10.fragment_sports_update
+com/example/version10/Athlete.java
+ com.example.version10.Athlete
+com/example/version10/Game_Ind_Score.java
+ com.example.version10.Game_Ind_Score
+com/example/version10/fragment_games_insert.java
+ com.example.version10.fragment_games_insert
+ com.example.version10.fragment_games_insert$1
+ com.example.version10.fragment_games_insert$2
+ com.example.version10.fragment_games_insert$2$1
+ com.example.version10.fragment_games_insert$2$2
+ com.example.version10.fragment_games_insert$2$3
+ com.example.version10.fragment_games_insert$2$4
+ com.example.version10.fragment_games_insert$2$5
+ com.example.version10.fragment_games_insert$2$6
+ com.example.version10.fragment_games_insert$2$7
+ com.example.version10.fragment_games_insert$2$8
+com/example/version10/fragment_teams_insert.java
+ com.example.version10.fragment_teams_insert
+com/example/version10/RoomUI_Fragment.java
+ com.example.version10.RoomUI_Fragment
+com/example/version10/fragment_sports.java
+ com.example.version10.fragment_sports
+com/example/version10/Rating.java
+ com.example.version10.Rating
+com/example/version10/fragment_queries.java
+ com.example.version10.fragment_queries
+com/example/version10/MapsActivity.java
+ com.example.version10.MapsActivity
+com/example/version10/about_fragment.java
+ com.example.version10.about_fragment
+com/example/version10/BuildConfig.java
+ com.example.version10.BuildConfig
+com/example/version10/Game_Team.java
+ com.example.version10.Game_Team
+com/example/version10/QUERY2.java
+ com.example.version10.QUERY2
+com/example/version10/Game_Ind.java
+ com.example.version10.Game_Ind
+com/example/version10/dummy/DummyContent.java
+ com.example.version10.dummy.DummyContent
+ com.example.version10.dummy.DummyContent$DummyItem
+com/example/version10/fragment_games_delete.java
+ com.example.version10.fragment_games_delete
+ com.example.version10.fragment_games_delete$1
+ com.example.version10.fragment_games_delete$1$1
+ com.example.version10.fragment_games_delete$2
+ com.example.version10.fragment_games_delete$2$1
+ com.example.version10.fragment_games_delete$3
+ com.example.version10.fragment_games_delete$3$1
+ com.example.version10.fragment_games_delete$4
+ com.example.version10.fragment_games_delete$4$1
+com/example/version10/fragment_teams.java
+ com.example.version10.fragment_teams
+com/example/version10/MyDatabase.java
+ com.example.version10.MyDatabase
+com/example/version10/Team.java
+ com.example.version10.Team
+com/example/version10/fragment_teams_update.java
+ com.example.version10.fragment_teams_update
+com/example/version10/Game.java
+ com.example.version10.Game
+com/example/version10/fragment_athletes.java
+ com.example.version10.fragment_athletes
+com/example/version10/fragment_athletes_delete.java
+ com.example.version10.fragment_athletes_delete
+com/example/version10/fragment_search.java
+ com.example.version10.fragment_search
+ com.example.version10.fragment_search$1
+ com.example.version10.fragment_search$2
+ com.example.version10.fragment_search$2$1
+ com.example.version10.fragment_search$2$2
+ com.example.version10.fragment_search$2$2$1
+ com.example.version10.fragment_search$2$2$2
+ com.example.version10.fragment_search$2$2$3
+ com.example.version10.fragment_search$2$2$4
+ com.example.version10.fragment_search$2$2$5
+ com.example.version10.fragment_search$2$2$6

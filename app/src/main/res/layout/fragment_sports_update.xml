@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_sports_update">
+
+
+    <LinearLayout
+        android:windowSoftInputMode="stateVisible|adjustResize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPDATE SPORT"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_margin="24dp"
+            />
+
+
+        <EditText
+            android:id="@+id/sport_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Insert Id"
+            android:inputType="textPersonName" />
+
+
+
+        <EditText
+            android:id="@+id/sport_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Insert Sport Name"
+            android:inputType="textPersonName" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/GenderGroup"
+            android:layout_below="@+id/txtView">
+            <RadioButton
+                android:id="@+id/maleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginLeft="0dp"
+                android:text="Male"/>
+
+            <RadioButton
+                android:id="@+id/femalebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Female" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/TeamGroup"
+            android:layout_below="@+id/txtView">
+            <RadioButton
+                android:id="@+id/teambutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginLeft="0dp"
+                android:text="Team"/>
+
+            <RadioButton
+                android:id="@+id/individualbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Individual" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/uncheckedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="uncheck radio button" />
+
+        <Button
+            android:id="@+id/submitSport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+</ScrollView>

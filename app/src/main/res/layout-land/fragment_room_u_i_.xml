@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomUI_Fragment"
+    android:id="@+id/ui"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        android:orientation="vertical"
+        android:windowSoftInputMode="stateVisible|adjustResize">
+
+
+        <TextView
+            android:layout_width="733dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:text="CHOOSE SOMETHING"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/athlete_button"
+            android:layout_width="114dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="208dp"
+            android:text="Athletes"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/sports_button"
+            android:layout_width="114dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="488dp"
+            android:layout_marginLeft="488dp"
+            android:layout_marginTop="208dp"
+            android:text="Sports"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/teams_button"
+
+            android:layout_width="114dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginTop="208dp"
+            android:text="Teams"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/games_button"
+            android:layout_width="114dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="368dp"
+            android:layout_marginLeft="368dp"
+            android:layout_marginTop="32dp"
+            android:text="Games"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/query_button"
+            android:layout_width="114dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginLeft="244dp"
+            android:layout_marginTop="208dp"
+            android:text="Queries"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

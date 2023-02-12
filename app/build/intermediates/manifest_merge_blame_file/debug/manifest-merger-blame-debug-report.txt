@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.version10"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:10:22-76
+17
+18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:13:5-79
+20-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:13:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:14:5-67
+21-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:14:22-64
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+26
+27    <application
+27-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:12:5-47:19
+28        android:name="androidx.multidex.MultiDexApplication"
+29        android:allowBackup="true"
+29-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:13:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.3.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\8f4d682c0342e0ab9cc18f208bf5b22b\core-1.3.2\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:14:9-43
+33        android:label=""
+33-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:15:9-25
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:16:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:17:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.Version10" >
+37-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:18:9-47
+38
+39        <!--
+40             The API key for Google Maps-based APIs is defined as a string resource.
+41             (See the file "res/values/google_maps_api.xml").
+42             Note that the API key is linked to the encryption key used to sign the APK.
+43             You need a different API key for each encryption key, including the release key that is used to
+44             sign the APK for publishing.
+45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+46        -->
+47        <meta-data
+47-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:30:9-32:55
+48            android:name="com.google.android.geo.API_KEY"
+48-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:31:13-58
+49            android:value="@string/google_maps_key" />
+49-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:32:13-52
+50z
+51        <activity
+51-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:34:9-36:68
+52            android:name="com.example.version10.MapsActivity"
+52-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:35:13-41
+53            android:label="@string/title_activity_maps" />
+53-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:36:13-56
+54        <activity
+54-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:38:9-46:20
+55            android:name="com.example.version10.MainActivity"
+55-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:39:13-41
+56            android:screenOrientation="fullSensor" >
+56-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:40:13-51
+57            <intent-filter>
+57-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:41:13-45:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:42:17-69
+58-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:42:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:44:17-77
+60-->C:\Users\user\Desktop\v11.2\app\src\main\AndroidManifest.xml:44:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <service
+64-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:17:9-23:19
+65            android:name="com.google.firebase.components.ComponentDiscoveryService"
+65-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:18:13-84
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:19:13-37
+68            <meta-data
+68-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:20:13-22:85
+69                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+69-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:21:17-111
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\ebdb81ec82d7db3c66107302ce169ecd\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:22:17-82
+71            <!--
+72                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+73                clients to use it as well, by defining this registrar in their own core/common library.
+74            -->
+75            <meta-data
+75-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+76                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+76-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+78        </service> <!-- Needs to be explicitly declared on P+ -->
+79        <uses-library
+79-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+80            android:name="org.apache.http.legacy"
+80-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+81            android:required="false" />
+81-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+82
+83        <service
+83-->[androidx.room:room-runtime:2.2.6] C:\Users\user\.gradle\caches\transforms-2\files-2.1\17d8a03fc3f3cd44d359b18258213d67\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+84            android:name="androidx.room.MultiInstanceInvalidationService"
+84-->[androidx.room:room-runtime:2.2.6] C:\Users\user\.gradle\caches\transforms-2\files-2.1\17d8a03fc3f3cd44d359b18258213d67\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+85            android:directBootAware="true"
+85-->[androidx.room:room-runtime:2.2.6] C:\Users\user\.gradle\caches\transforms-2\files-2.1\17d8a03fc3f3cd44d359b18258213d67\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+86            android:exported="false" />
+86-->[androidx.room:room-runtime:2.2.6] C:\Users\user\.gradle\caches\transforms-2\files-2.1\17d8a03fc3f3cd44d359b18258213d67\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+87
+88        <provider
+88-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+89            android:name="com.google.firebase.provider.FirebaseInitProvider"
+89-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+90            android:authorities="com.example.version10.firebaseinitprovider"
+90-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+91            android:directBootAware="true"
+91-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+92            android:exported="false"
+92-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+93            android:initOrder="100" />
+93-->[com.google.firebase:firebase-common:19.5.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+94
+95        <activity
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\97762cadcf6efc2fd07f9a69ce6d22a4\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\97762cadcf6efc2fd07f9a69ce6d22a4\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\97762cadcf6efc2fd07f9a69ce6d22a4\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\97762cadcf6efc2fd07f9a69ce6d22a4\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\673ad0707d733aa5817b98bae7b95b87\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\673ad0707d733aa5817b98bae7b95b87\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\673ad0707d733aa5817b98bae7b95b87\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+103    </application>
+104
+105</manifest>

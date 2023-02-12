@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+<LinearLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_athletes_insert">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERT ATHLETE"
+
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_margin="24dp"
+        />
+
+
+    <EditText
+        android:id="@+id/athlete_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Id"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/athlete_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/athlete_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Insert Surname"
+        />
+
+    <EditText
+        android:id="@+id/athlete_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Insert City"
+
+        />
+
+    <EditText
+        android:id="@+id/athlete_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Insert Country"/>
+
+    <EditText
+        android:id="@+id/athlete_birth_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Insert birth_date"
+        />
+
+    <EditText
+        android:id="@+id/athlete_sport_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Insert Sport ID"
+        />
+
+
+
+    <Button
+        android:id="@+id/submitAthlete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+</LinearLayout>
+
+-->
+
+
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_athletes_insert">
+
+
+    <LinearLayout
+        android:windowSoftInputMode="stateVisible|adjustResize"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INSERT ATHLETE"
+
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:layout_margin="24dp"
+            />
+
+
+        <EditText
+            android:id="@+id/athlete_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Insert Id"
+            android:inputType="textPersonName" />
+
+
+
+        <EditText
+            android:id="@+id/athlete_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Insert Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/athlete_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert Surname"
+            />
+
+        <EditText
+            android:id="@+id/athlete_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert City"
+
+            />
+
+        <EditText
+            android:id="@+id/athlete_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert Country"/>
+
+        <EditText
+            android:id="@+id/athlete_birth_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert birth_date"
+            />
+
+        <EditText
+            android:id="@+id/athlete_sport_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Insert Sport ID"
+            />
+
+
+
+        <Button
+            android:id="@+id/submitAthlete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+
+
+    </LinearLayout>
+</ScrollView>

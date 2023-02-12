@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">version4.5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="queries_array">
+        <item>Άθλημα με τους αθλητές</item>
+        <item>Ομάδα Με συγκεριμένο φύλο</item>
+        <item>Άθλητή και το άθλημα του</item>
+        <item>Στοιχεία του Αγώνα </item>
+        <item>Εμφάνησε ολους τους αθλητές</item>
+        <item>Εμφανήσε όλα τα αθλήματα</item>
+        <item>Εμφανήσε όλες τις ομάδες</item>
+    </string-array>
+    <string-array name="queries_description_array">
+        <item>Γράψτε ένα άθλημα</item>
+        <item>Γράψτε Male OR Female</item>
+        <item>Γράψτε Ενα ID αθλητή</item>
+        <item>Γράψε Ενα ID Αγώνα </item>
+        <item>Μην γράψετε τίποτα </item>
+        <item>Μην γράψετε τίποτα </item>
+        <item>Μην γράψετε τίποτα </item>
+
+
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

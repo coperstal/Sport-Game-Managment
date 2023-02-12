@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_athletes_insert">
+
+
+
+<LinearLayout
+    android:windowSoftInputMode="stateVisible|adjustResize"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERT TEAM"
+
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_margin="24dp"
+        />
+
+
+    <EditText
+        android:id="@+id/team_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Id"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/team_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Team Name"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/team_field_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Field Name"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/team_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Team City"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/team_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Team Country"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/team_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Team Year Establishment"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/team_sport_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Insert Team Sport Id"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/submitTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+</LinearLayout>
+    </ScrollView>
+
+

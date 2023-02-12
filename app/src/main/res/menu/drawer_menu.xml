@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@mipmap/baseline_home_white_48"></item>
+        <item
+            android:id="@+id/search"
+            android:title="Search"
+            android:icon="@mipmap/baseline_search_white_48"></item>
+        <item
+            android:id="@+id/contact"
+            android:title="Contact us"
+            android:icon="@mipmap/baseline_contact_mail_white_48"></item>
+        <item
+            android:id="@+id/about"
+            android:title="About the app"
+            android:icon="@mipmap/baseline_smartphone_white_48"></item>
+        <item
+            android:id="@+id/theMap"
+            android:title="Map"
+            android:icon="@mipmap/baseline_map_white_48"></item>
+       <item
+            android:id="@+id/exit"
+            android:title="Exit app"
+            android:icon="@mipmap/baseline_exit_to_app_white_48"></item>
+           </group>
+
+
+           </menu>
+
